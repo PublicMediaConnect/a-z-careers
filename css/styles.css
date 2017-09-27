@@ -1,0 +1,44 @@
+/*Backgrounds */
+.orange-bg {
+  background: url('../images/orange_stars_base.jpg') repeat;
+  max-width: 100%;
+}
+
+/*Header */
+.header-img {
+  width:100%;
+  max-width: 1110px;
+}
+
+/*Navigation */
+.navbar-default{
+  background-color: blue;
+  border:none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color:white;
+  text-transform: uppercase;
+  font-weight:bold;
+  font-size:1.3em;
+}
+
+.nav>li {
+padding:0 1% 0 1%;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+
+    .navbar {
+      border-radius: 0px;
+    }
+}
