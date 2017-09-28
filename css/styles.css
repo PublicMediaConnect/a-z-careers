@@ -1,44 +1,61 @@
 /*Backgrounds */
+
 .orange-bg {
   background: url('../images/orange_stars_base.jpg') repeat;
   max-width: 100%;
 }
 
+
 /*Header */
+
 .header-img {
-  width:100%;
+  width: 100%;
   max-width: 1110px;
 }
 
+
 /*Navigation */
-.navbar-default{
+
+.navbar-default {
   background-color: blue;
-  border:none;
+  border: none;
 }
 
 .navbar-default .navbar-nav>li>a {
-  color:white;
+  color: white;
   text-transform: uppercase;
-  font-weight:bold;
-  font-size:1.3em;
+  font-weight: bold;
+  font-size: 1.3em;
 }
 
 .nav>li {
-padding:0 1% 0 1%;
+  padding: 0 1% 0 1%;
 }
 
 @media (min-width: 768px) {
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-    }
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+  .navbar {
+    border-radius: 0px;
+  }
+}
 
-    .navbar .navbar-collapse {
-        text-align: center;
-    }
+.video-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 50px;
+  z-index: -2;
+  border: 10px solid #E124B7;
+  background-color: black;
+}
 
-    .navbar {
-      border-radius: 0px;
-    }
+.video-container video.fillWidth {
+  width: 100% !important;
 }
