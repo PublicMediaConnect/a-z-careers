@@ -59,3 +59,7 @@
 .video-container video.fillWidth {
   width: 100% !important;
 }
+
+#AZVideos_logo {
+visibility: hidden !important;
+}
