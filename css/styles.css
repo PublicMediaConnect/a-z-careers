@@ -9,6 +9,26 @@ body {
   max-width: 100%;
 }
 
+.green-bg {
+  background: url('../images/green_stars_base.jpg') repeat;
+  max-width: 100%;
+}
+
+.blue-bg {
+  background: url('../images/blue_stars_base.jpg') repeat;
+  max-width: 100%;
+}
+
+.magenta-bg {
+  background: url('../images/magenta_stars_base.jpg') repeat;
+  max-width: 100%;
+}
+
+.purple-bg {
+  background: url('../images/purple_stars_base.jpg') repeat;
+  max-width: 100%;
+}
+
 
 /*Header */
 
@@ -126,6 +146,10 @@ max-width: 174px;
   margin:0 auto;
 }
 
+.padding-right-30 {
+  padding-right:30px;
+}
+
 /*Report */
 .report {
    background-color:#ffffff;
@@ -178,13 +202,55 @@ max-width: 250px;
 .text-green {
   font-weight: bold;
   color:#66cc66;
-  font-size:1.2em;
-  padding-top:10px;
+}
+
+.text-new-green {
+  font-weight:bold;
+  color:#0e8a0e;
 }
 
 .text-orange {
   font-weight: bold;
   color:#ff9900;
-  font-size:1.2em;
-  padding:10px 0;
 }
+
+.text-dark-magenta {
+    font-weight: bold;
+    color:#c00a4e;
+}
+
+.text-magenta {
+    font-weight: bold;
+    color:#ff3399;
+}
+
+.text-light-blue{
+    font-weight:bold;
+    color:#00ace7;
+}
+
+.padding-rl-10 {
+  padding:0px 10px;
+}
+
+.padding-tb-10 {
+  padding:10px 0px;
+}
+
+.font-big {
+  font-size:1.2em;
+}
+
+.img-thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+  }
