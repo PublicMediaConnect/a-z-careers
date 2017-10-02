@@ -262,6 +262,9 @@ max-width: 250px;
   font-size:1.2em;
 }
 
+.margin-top-10 {
+  margin-top:10px;
+}
 .img-thumbnail {
     display: inline-block;
     max-width: 100%;
