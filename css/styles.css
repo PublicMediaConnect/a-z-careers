@@ -127,6 +127,12 @@ max-width: 174px;
   }
 }
 
+.random-button {
+  position: absolute;
+top: -2%;
+left: 30%;
+}
+
 /*A-Z Grid*/
 .intro-text-block {
   background-color:black;
