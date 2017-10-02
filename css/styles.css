@@ -199,6 +199,14 @@ max-width: 250px;
   background-color:#0475c0;
 }
 
+.sidebar-new-green {
+  background-color:#0e8a0e;
+}
+
+.sidebar-new-orange {
+  background-color: #ff6633;
+}
+
 .text-green {
   font-weight: bold;
   color:#66cc66;
@@ -227,6 +235,19 @@ max-width: 250px;
 .text-light-blue{
     font-weight:bold;
     color:#00ace7;
+}
+.text-new-blue{
+    font-weight: bold;
+    color:#0475c0;
+}
+
+.text-blue-web{
+    font-weight: bold;
+    color:#001d99;
+}
+.text-purple-web{
+  font-weight:bold;
+  color:#6600cc;
 }
 
 .padding-rl-10 {
