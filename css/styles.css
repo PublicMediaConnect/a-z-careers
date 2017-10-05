@@ -235,6 +235,10 @@ body {
 	margin-top:60px;
 }
 
+.margin-top-70 {
+	margin-top:70px;
+}
+
 .margin-left-35 {
 	margin-left:35px;
 }
@@ -257,6 +261,21 @@ body {
 	max-width: 250px;
 }
 
+.transform-cw-8{
+	transform: rotate(8deg);
+}
+
+.transform-ccw-8 {
+	transform: rotate(-8deg);
+}
+
+.transform-cw-12 {
+	transform: rotate(12deg);
+}
+
+.transform-ccw-12 {
+	transform: rotate(-12deg);
+}
 
 /*Resources*/
 .resources-box {
