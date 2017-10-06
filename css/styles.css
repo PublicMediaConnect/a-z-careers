@@ -221,12 +221,23 @@ body {
 
 /*A-Z Grid*/
 
+
 .intro-text-block {
 	background-color: black;
 	color: #FF6633;
 	position: absolute;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	font-weight: bold;
+}
+
+@media (max-width: 394px) {
+	.intro-text-block {
+		background-color: black;
+		color: #FF6633;
+		position: absolute;
+		font-size: 12px;
+		font-weight: bold;
+	}
 }
 
 .padding-30 {
