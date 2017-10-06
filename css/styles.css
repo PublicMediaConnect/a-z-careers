@@ -188,9 +188,25 @@ body {
 .random-button {
 	position: absolute;
 	top: 0%;
-	left: 65%;
+	left: 60%;
 	cursor: pointer;
 }
+
+.random-button-mobile {
+	margin:0 auto;
+	display:none;
+}
+
+
+@media (max-width:624px){
+	.random-button {
+	display:none;
+	}
+	.random-button-mobile{
+		display:block;
+	}
+}
+
 
 .profile-pic {
 	margin-left:17%;
