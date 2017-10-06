@@ -25,11 +25,11 @@
 					<button class="navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
 				</div>
 				<div class="collapse navbar-collapse navbar-ex1-collapse">
-					<ul class="nav navbar-nav col-md-12">
-						<li class="col-md-1">
+					<ul class="nav navbar-nav col-md-12 col-sm-12">
+						<li class="col-md-1 col-sm-2">
 							<a href="index.html">Home</a>
 						</li>
-						<li class="col-md-4 col-md-offset-3 dropdown">
+						<li class="col-md-4 col-md-offset-3 col-sm-4 col-sm-offset-2 dropdown">
 							<a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">All Careers A-Z <span class="caret"></span></a>
 							<ul aria-labelledby="All Careers A-Z" class="dropdown-menu multi-level" role="menu">
 								<li class="dropdown-submenu">
@@ -129,7 +129,7 @@
 								</li>
 							</ul>
 						</li>
-						<li class="col-md-3 col-md-offset-1">
+						<li class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1">
 							<a href="teachers.html">For Teachers</a>
 						</li>
 					</ul>
@@ -140,7 +140,9 @@
 		<div class="container">
 			<div class="row">
 				<section class="col-md-9 padding-top-60">
-					<img class="img-responsive random-button" onclick="getRandomVideo()" src="images/randomizer_button.png"> <img class="img-responsive watch-button" src="images/watch_button.png">
+					<img class="img-responsive random-button" onclick="getRandomVideo()" src="images/randomizer_button.png">
+					<img class="img-responsive random-button-mobile" onclick="getRandomVideo()" src="images/randomizer_button_mobile.png">
+					<img class="img-responsive watch-button" src="images/watch_button.png">
 					<div class="video-container-alt">
 						<video class="video fillWidth img-rounded" poster="images/video-producer.png"><source src="http://cetconnect.publicmediaconnect.org/COVEsource/BEMC_Video_Producer_FINAL.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.</video>
 						<div class="playpause"></div>
@@ -149,17 +151,17 @@
 						<img class="img-responsive report-button" src="images/check_our_report_button.png">
 						<div class="report">
 							<div class="row">
-								<div class="col-sm-7 margin-left-35">
+								<div class="col-md-4 col-md-push-8 col-sm-4">
+									<img class="img-responsive padding-top-30 margin-top-30 profile-pic"  src="images/video.png">
+								</div>
+								<div class="col-md-7 col-md-pull-4 col-sm-7 margin-left-35">
 									<img class="img-responsive report-top padding-top-30 margin-top-30" src="images/video_producer_fill-in_top.png">
 									<h3>
 										Career: Video Producer
 									</h3>
 									<p class="font-big">
-										A Video Producer is involved in all aspects of making a video, including: writing scripts, identifying locations for filming, setting a schedule, developing a budget and hiring the crew and actors. They must make sure that the creative and production processes run smoothly, on time and on budget This career requires a Bachelor’s Degree. To prepare for this career you might develop your presentation skills, study commercials to identify a producer’s style and the central message, or make you own video shorts using your own device and free video production software. Potential salary: $69,000/year.
+										A Video Producer is involved in all aspects of making a video, including: writing scripts, identifying locations for filming, setting a schedule, developing a budget and hiring the crew and actors. They must make sure that the creative and production processes run smoothly, on time and on budget. This career requires a Bachelor’s Degree. To prepare for this career you might develop your presentation skills, study commercials to identify a producer’s style and the central message, or make you own video shorts using your own device and free video production software. Potential salary: $69,000/year.
 									</p>
-								</div>
-								<div class="col-sm-4 pull-right">
-									<img class="img-responsive padding-top-30 margin-top-30 profile-pic"  src="images/video.png">
 								</div>
 								<div class="col-sm-12">
 									<div class="col-sm-4 padding-top-30">
@@ -174,7 +176,7 @@
 					</div>
 				</section>
         <!--Side Bar Content-->
-				<section id="sidebar" class="col-md-3 margin-top-60">
+				<section id="sidebar" class="col-md-3 margin-top-60 col-sm-11">
 					<div class="sidebar-magenta">
 						<p class="text-center text-blue-web text-uppercase padding-tb-10 font-big">
 							YOU MIGHT ALSO LIKE
