@@ -326,12 +326,11 @@ body {
 
 .resources-order {
 	background-color: #ff3399;
-	width: 80%;
-	max-height: 80px;
+	max-height: 100px;
 	z-index: 2;
 	position: absolute;
-	top: 30%;
-	color:#ffffff;
+	top: 40%;
+	color: #ffffff;
 }
 
 .resources-tools{
@@ -340,6 +339,7 @@ body {
 	font-weight:bold;
 	margin:70px 0 40px 15px;
 	min-height:375px;
+	padding-top:10px;
 }
 
  .resource-screenshot {
