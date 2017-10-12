@@ -153,8 +153,13 @@
 <script type="text/javaScript">
 var playerInstance = jwplayer("myElement");
 playerInstance.setup({
-    file: "http://atoz.thinktv.org/videos/BEMC_Comp_Prog_FINAL.mp4",
-  	image: "images/computer_engineer.png"
+	image: "images/computer_engineer.png",
+	sources: [{
+          file: "http://atoz.thinktv.org/videos/BEMC_Comp_Prog_FINAL.mp4"
+        },{
+            file: "http://atoz.thinktv.org/videos/BEMC_Comp_Prog.webm"
+        }]
+
 });
 </script>
 					<!--	<div class="playpause"></div>-->
