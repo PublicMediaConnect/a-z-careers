@@ -9,6 +9,9 @@
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/styles.css" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:700|Raleway:500" rel="stylesheet">
+		<script src="https://content.jwplatform.com/libraries/GVdwO0Qw.js"></script>
+
+
 	</head>
 	<body class="magenta-bg">
 		<header class="container">
@@ -144,8 +147,17 @@
 					<img class="img-responsive random-button-mobile" onclick="getRandomVideo()" src="images/randomizer_button_mobile.png">
 					<img class="img-responsive watch-button" src="images/watch_button.png">
 					<div class="video-container-alt">
-						<video class="video fillWidth img-rounded" poster="images/computer_engineer.png"><source src="http://cetconnect.publicmediaconnect.org/COVEsource/BEMC_Comp_Prog_FINAL.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.</video>
-						<div class="playpause"></div>
+
+
+							<div id="myElement" class="video fillWidth img-rounded" ></div>
+<script type="text/javaScript">
+var playerInstance = jwplayer("myElement");
+playerInstance.setup({
+    file: "http://atoz.thinktv.org/videos/BEMC_Comp_Prog_FINAL.mp4",
+  	image: "images/computer_engineer.png"
+});
+</script>
+					<!--	<div class="playpause"></div>-->
 					</div>
 					<div class="col-sm-12 padding-top-30">
 						<img class="img-responsive report-button" src="images/check_our_report_button.png">
@@ -224,6 +236,14 @@
 		            $(this).children(".playpause ").fadeIn();
 		        }
 		    });
+		</script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-522221-6"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		 gtag('config', 'UA-522221-6');
 		</script>
 	</body>
 </html>
