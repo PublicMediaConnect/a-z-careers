@@ -147,23 +147,10 @@
 					<img class="img-responsive random-button-mobile" onclick="getRandomVideo()" src="images/randomizer_button_mobile.png">
 					<img class="img-responsive watch-button" src="images/watch_button.png">
 					<div class="video-container-alt">
-
-
-							<div id="myElement" class="video fillWidth img-rounded" ></div>
-<script type="text/javaScript">
-var playerInstance = jwplayer("myElement");
-playerInstance.setup({
-	image: "images/computer_engineer.png",
-	sources: [{
-		  file: "http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/filer_public/A%20to%20Z/videos/BEMC_Comp_Prog.webm"
-
-        },{
-            file: "http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/filer_public/A%20to%20Z/videos/BEMC_Comp_Prog_FINAL.mp4"
-        }]
-
-});
-</script>
-					<!--	<div class="playpause"></div>-->
+						<video class="video fillWidth img-rounded" poster="images/computer_engineer.png">
+							<source src="http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/filer_public/A%20to%20Z/videos/BEMC_Comp_Prog.webm" type="video/webm">
+							<source src="http://pbs.bento.storage.s3.amazonaws.com/hostedbento-prod/filer_public/A%20to%20Z/videos/BEMC_Comp_Prog.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.</video>
+						<div class="playpause"></div>
 					</div>
 					<div class="col-sm-12 padding-top-30">
 						<img class="img-responsive report-button" src="images/check_our_report_button.png">
